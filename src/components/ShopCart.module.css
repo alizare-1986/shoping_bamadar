@@ -1,0 +1,121 @@
+.container {
+    display: flex;
+    justify-content:  space-between;
+    align-items: flex-start;
+    margin: 1px 140px 50px;
+    transition: all 0.2s ease;
+}
+.cartContainer {
+    width: 70%;
+}
+.payments {
+    width: 30%;
+    background: #fff;
+    border:  1px solid silver;
+    border-radius: 100px;
+    text-align: center;
+    justify-content: space-between;
+    
+  
+  
+}
+.payments p {
+    color: rgb(61, 61, 61);
+    margin: 20px 20px 10px;
+}
+.payments p span {
+    color: #1a73e8;
+    font-weight: bold;
+}
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin:  50px 40px 20px;
+}
+.checkout {
+    cursor: pointer;
+    display: inline-block;
+    background: #84A98C;
+    padding: 7px 16px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    transition: all 0.2s ease;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07)0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px ,
+    rgba(0, 0, 0, 0.07)0px 9px 16px;
+    }
+    .checkout:hover {
+       background-color: #354f52;
+    }
+    .clear {
+        cursor: pointer;
+        color: #84A98C ;
+        border: none;
+        transition:  all 0.2s ease;
+        font-size: 1rem;
+        border-radius: 15px;
+         }
+         .clear:hover {
+            background-color: #354f52;
+         }
+         .complete h3 {
+            color: #b7b7a4;
+            margin: 30px 0 50px;
+            font-size: 1.2rem;
+            margin-left: 5px;
+         }
+         .complete a {
+          background-color: #1a73e8;
+          display: inline-block;
+          text-decoration: none;
+          color: #fff;
+          height: 30px;
+          border-radius: 4px;
+          text-align: center;
+          cursor: pointer;
+          transition: all 0.2s ease;
+          width: 90px;
+          font-weight: bold;
+          line-height: 30px;
+          box-shadow: rgba(50, 50, 93, 0.25 )0px 4px 12px -2px,
+          rgba(0, 0, 0,0.3) 0px 3px 7px -3px;
+          margin-left: 5px;
+        }
+        .complete :hover {
+            background-color: aqua;
+        }
+        @media (max-width: 1200px){
+            .container{
+                margin: 120px 80px 50px;
+            }
+        }
+        @media (max-width: 1050px){
+            .container{
+                flex-direction: column-reverse;
+                margin: 120px 80 px 50px ;
+                align-items: center;
+            }
+            .cartContainer {
+                width: 100%;
+            }
+            .payments{
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+        }
+        @media (max-width: 768px){
+            .container{
+                margin: 120px 40px 50px;
+            }
+
+        }
+        @media (max-width: 555px){
+            .container{
+                margin: 120px 20px 50px;
+            }
+        }
