@@ -13,7 +13,7 @@ const ProductsSp = ({productData}) => {
         <div className={styles.container}>
             
             
-        <img className={styles.cardImage} src={`https://my.bamadar.com${productData.images.thumb}`} alt='product'/>
+        {productData.images?.thumb&&<img className={styles.cardImage} src={`https://my.bamadar.com${productData.images.thumb}`} alt='product'/>}
         
       
         <h3>{productData.name}</h3>

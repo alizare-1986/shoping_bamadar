@@ -12,7 +12,7 @@ const AllSsp = ({productData}) => {
         <div className={styles.container}>
             
             
-        <img className={styles.cardImage} src={`https://my.bamadar.com${productData.images.thumb}`} alt='product' style={{userSelect:'none',width:'150px'}}/>
+       {productData.images?.thumb&& <img className={styles.cardImage} src={`https://my.bamadar.com${productData.images.thumb}`} alt='product' style={{userSelect:'none',width:'150px'}}/>}
         
       
         <h3 style={{fontSize:'15px'}}>{productData.name}</h3>

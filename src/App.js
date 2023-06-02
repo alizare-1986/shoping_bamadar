@@ -15,12 +15,14 @@ import ProductSpDetails from './components/ProductsSpDetails';
 import ShopCart from './components/ShopCart';
 import ProductsSAll from './components/ProductsSAll';
 import ProductsSpAll from './components/ProductsSpAll';
+import EndCall from './components/EndCall'
+
 
 
 function App() {
   return (
     <div className="App">
-      
+     
       <Baner/>
      <ProductsContextProvider>
      <ProductsShContextProvider>
@@ -29,9 +31,9 @@ function App() {
       <Welcome/>
       <Routes>
       <Route path='/cart' element={<ShopCart/>}/>
-        <Route path='/productsspall' element={<ProductsSpAll/>}/>
-        <Route path='/productssall' element={<ProductsSAll/>}/>
         
+        <Route path='/productssall' element={<ProductsSAll/>}/>
+        <Route path='/productsspall' element={<ProductsSpAll/>}/>
         <Route path='/productsshall' element={<ProductsShAll/>}/>
         <Route path='/products/:id' element={<ProductDetail/>}/>
         <Route path='/productssh/:id' element={<ProductShDetail/>}/>
@@ -48,7 +50,8 @@ function App() {
       </ProductsSpContextProvider>
       </ProductsShContextProvider>
      </ProductsContextProvider>
-     
+
+     <EndCall/>
     
      
      

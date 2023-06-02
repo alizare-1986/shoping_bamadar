@@ -7,7 +7,7 @@ const ProductsSpAll = () => {
     const products = useContext(ProductsSpContext)
     return (
         <div>
-            <label  style={{backgroundColor:'silver',padding:'20px',border:'1px solid silver',borderRadius:'20px',height:'20px'}} >محصولات شگفت انگیز</label>
+            <label  style={{backgroundColor:'silver',padding:'20px',border:'1px solid silver',borderRadius:'20px',height:'20px'}} >پیشنهاد ما به شما</label>
             <br></br>
             <br></br>
             <br></br>
