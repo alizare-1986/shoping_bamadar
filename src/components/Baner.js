@@ -8,7 +8,7 @@ const Baner = () => {
           src={bamadar}
           alt="wellcome"
           style={{
-            width: '90%',
+            width: '70%',
             margin:60,
             height:500,
             objectFit:'fill',

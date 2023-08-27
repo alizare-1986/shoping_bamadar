@@ -1,0 +1,47 @@
+
+.baner {
+ color:brown;
+    font-size:25px;
+}
+.state {
+    display: flex;
+
+}
+
+@media (max-width: 1200px) {
+    .container {
+        padding: 15px 80px;
+        margin-top: 110px;
+    }
+
+    
+}
+@media (max-width: 768px) {
+    .container{
+        padding: 15px 10px;
+    }
+    .baner{
+        font-size: large;
+    }
+  .state{
+ font-size: 10px;
+  }
+    
+}
+@media (max-width: 555px){
+    .container{
+        justify-content: center;
+        padding: 15px 10px;
+    }
+    .baner{
+        font-size: small;
+    }
+    .state{
+        font-size: 7px;
+    }
+}
+@media (max-width:270px){
+    .state{
+        font-size: 4px;
+    }
+}

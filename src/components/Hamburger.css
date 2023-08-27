@@ -1,6 +1,7 @@
 .hamburger {
     display: flex;
     align-items:center;
+    
    
   }
   
@@ -26,14 +27,22 @@
     list-style: none;
     margin: 0;
     padding: 0;
+   
+    
   }
   
   .hamburger__item {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem; 
+    
   }
   
   .hamburger__item a {
-    text-decoration: none;
+    text-decoration:solid;
     color: #333;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    
+    
+  }
+  .hamburger__item  :hover{
+    color: blueviolet;
   }
