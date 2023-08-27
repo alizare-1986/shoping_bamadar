@@ -34,6 +34,7 @@
   .hamburger__item {
     margin-bottom: 2rem; 
     
+    
   }
   
   .hamburger__item a {
@@ -46,3 +47,26 @@
   .hamburger__item  :hover{
     color: blueviolet;
   }
+  @media (max-width: 1000px){
+    .hamburger__list  {
+        width: 45%;
+    }
+}
+@media (max-width: 768px){
+    .hamburger__list {
+        width: 45%;
+    }
+    
+}
+@media (max-width: 555px){
+    .hamburger__list {
+        width: 70%;
+    }
+   
+}
+
+@media (max-width: 400px){
+    .hamburger__list {
+        width: 90%;
+    }
+}

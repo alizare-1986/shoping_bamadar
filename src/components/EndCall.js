@@ -3,7 +3,7 @@ import instagram from '../assets/instagram.jpeg'
 
 const EndCall = () => {
     return (
-        <div>
+        <div style={{marginBlock:'200px'}}>
              <div style={{display:'flex',justifyContent:'center'}}>
              <img src={instagram} alt='instagram' style={{width:'40px',height:'40px',margin:'15px'}}/><h2>ما را در شبکه های اجتماعی دنبال کنید</h2> 
             
