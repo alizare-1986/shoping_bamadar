@@ -71,4 +71,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### `run with netlify`
 
-This project was netlify with :[create netlify](bamadar-az.netlify.app).
+This project was netlify with :[create netlify](bamadar-az.netlify.app)
