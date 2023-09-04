@@ -69,6 +69,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### `run with netlify` fails to netlify
+### `run with netlify`
 
-This project was netlify with :[bamadar-az.netlify.app](create netlify).
+This project was netlify with :[create netlify](bamadar-az.netlify.app).
